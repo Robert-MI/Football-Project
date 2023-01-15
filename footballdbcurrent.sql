@@ -26,7 +26,9 @@ CREATE TABLE IF NOT EXISTS `mydb`.`Association` (
     PRIMARY KEY (`idAssociation`)
 )  ENGINE=INNODB;
 
+-- -----------------------------------------------------
 -- 4NF DECOMPOSITION
+-- -----------------------------------------------------
 
 CREATE TABLE IF NOT EXISTS `mydb`.`AssociationOfficePhone` (
 	`idAssociation` INT NOT NULL,
